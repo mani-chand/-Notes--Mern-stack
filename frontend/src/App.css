@@ -1,0 +1,76 @@
+li{
+  list-style: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.title{
+  display:flex;
+  justify-content:center;
+  background-color:burlywood
+  }
+  html{
+    background-color:lightgray;
+  }
+  .inputarea{
+    height: 50px;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+  }
+  .icon-add{
+    padding: 10px;
+    position: relative;
+    bottom: 5px;
+  }
+  .in-txt{
+    padding:10px 0px 10px 0px;
+    width: 40%;
+    border: 2px solid sienna;
+    border-radius: 8px;
+  }
+  .add{
+    padding:5px 0px 5px 0px;
+    background-color: red;
+  }
+  .otr{
+    display: flex;
+    justify-content: center;
+  
+  }
+  .notesarea{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: auto;
+    width: 500px;
+  }
+  .val{
+    color:olive;
+  }
+  .tble{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    height: 10px;
+    border: 2px solid gray;
+    margin-bottom: 10px;
+    background-color:lightblue;
+    border-radius: 10px;
+  }
+  .btn-del{
+    padding: 0px;
+    height: 0px;
+    width:0px;
+  }
+  .icon-del{
+    position: relative;
+    right: 11px;
+    bottom:9px;
+  }
+  button:hover{
+    cursor: pointer;
+  }
+  
