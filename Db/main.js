@@ -22,8 +22,7 @@ app.get('/',create.getNotes)
 app.get('/:id',create.getNoteById)
 app.post('/:id',create.deleteNoteById)
 app.post('/edit/:id',create.editNoteById)
-//mongoose.Collection('mongodb+srv://manichand:root@cluster0.oll6q.mongodb.net/Note-App?retryWrites=true&w=majority')
-url='mongodb+srv://manichand:root@cluster0.oll6q.mongodb.net/Empathymap?retryWrites=true&w=majority'
+url='mongodb+srv://[username]:[password]@cluster0.oll6q.mongodb.net/Empathymap?retryWrites=true&w=majority'
 mongoose.Promise = global.Promise;
 mongoose.connect(url)
 .then(()=>{app.listen(5000)})
